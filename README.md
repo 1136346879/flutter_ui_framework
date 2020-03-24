@@ -38,6 +38,11 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+为了测试入口文件，我们在index_page.dart文件里使用了静态组件（也就是继承了StatelessWidget）。因为底部导航栏是要根据用户操作不断变化的，所以我们使用动态组件（StatefulWidget）。
+
+这里我使用了快捷键stful快速生成，如果你要使用这个快速生成需要在android studio 或者VSCode里安装Awesome Flutter Snippets。安装完插件需要重新启动一下VSCode，然后就可以快乐的使用快捷方法生成代码了。（Flutter开发必备，建议安装）
+
 index_page.dart类文件代码：
 ```
 import 'package:flutter/cupertino.dart';
