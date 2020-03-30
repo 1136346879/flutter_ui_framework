@@ -5,6 +5,7 @@ flutter项目UI框架搭建
 下面几个tab按钮，点击按钮切换到相应的页面。
 大家可以看看如图所示：
 页面随着tab的切换而切换，随波逐流。
+
 ![image](https://github.com/1136346879/Image_Assert/blob/master/flutter_%E6%A1%86%E6%9E%B6.gif)
 
 下面代码具体实现：
